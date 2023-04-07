@@ -1,18 +1,19 @@
 require './my_enumerable'
 
 class MyList
+  include MyEnumerable
+
   def initialize(*list)
     @list = list
   end
 
-  def each
-    MyEnumerable.print_list(@list)
+  def each(&block)
+    @list.each(&block)
   end
 end
 
 # # Create our list
-list = MyList.new(1, 2, 3, 4)
-list.each
+# irb> list = MyList.new(1, 2, 3, 4)
 # => #<MyList: @list=[1, 2, 3, 4]>
 
 # # Test #all?

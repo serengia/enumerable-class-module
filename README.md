@@ -16,9 +16,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Decode Morse message <a name="about-project"></a>
+# 📖 Enumerable with class and module <a name="about-project"></a>
 
-**Decode Morse message** A simple morse code decoder. Uisng Ruby language.
+A simple implementation of Enumerable with class and module.
 
 ## 🛠 Built With <a name="built-with"></a>
 
